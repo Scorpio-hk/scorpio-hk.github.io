@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - 'master'
+      - 'main'
 
 jobs:
   build:
@@ -19,7 +19,7 @@ jobs:
       # load repo to /github/workspace
     - uses: actions/checkout@v2
       with:
-          repository: fangbinwei/blog
+          repository: Scorpio-hk/scorpio-hk.github.io
           fetch-depth: 0
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
