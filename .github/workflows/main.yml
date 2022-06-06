@@ -8,9 +8,9 @@
     # Exclude file from the folder
     exclude: # optional
     # Aliyun OSS accessKeyId.
-    accessKeyId: LTAI4GJzaF5zZz21rJT1Fms2
+    accessKeyId: ${{ secrets.ID }}
     # Aliyun OSS accessKeySecret.
-    accessKeySecret: lRX18NrJCdMSkcFCMVao2GAa9yfuxD
+    accessKeySecret: ${{ secrets.SE }}
     # Aliyun OSS bucket instance.
     bucket: hknewblog
     # OSS region domain
