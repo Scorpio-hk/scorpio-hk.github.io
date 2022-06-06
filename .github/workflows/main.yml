@@ -1,4 +1,4 @@
- name: aliyun-oss-website-action
+- name: aliyun-oss-website-action
   # You may pin to the exact commit or the version.
   # uses: fangbinwei/aliyun-oss-website-action@73062d4b8ab558c81c2325970e1023099391b43b
   uses: fangbinwei/aliyun-oss-website-action@v1.3.0
