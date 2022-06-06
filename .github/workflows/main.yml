@@ -48,4 +48,4 @@ jobs:
           bucket: hknewblog
           # use your own endpoint
           endpoint: oss-cn-hongkong.aliyuncs.com
-          folder: dist    
+          folder: ./    
